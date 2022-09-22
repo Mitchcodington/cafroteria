@@ -1,0 +1,149 @@
+* {box-sizing: border-box;overflow-x: hidden; }
+
+body {margin: 0; line-height: 1.6; background:black; background-size: cover;
+background-blend-mode: multiply;}
+
+img {width:100%; display: block;filter: brightness(60%);border-radius: 6px;
+text-align: center;object-fit: cover; }
+
+.homepage-container {width: 100%; max-width:1400px;}
+
+header {background:olive; width: 100%;}
+
+#music-btn {margin-right:5em;height: 6vh; margin-top: 2.1em; background: yellowgreen;
+ color: black;font-weight: bolder; font-family: nunito; border-radius: 30px; width:6%}
+
+nav { display: flex; justify-content: space-between; background: black; width: 100%;
+padding-bottom: 1em;}
+
+#logo-nav1 {border-bottom: solid orange 2px;padding-bottom: 1em;}
+
+#btn-tours {width:6.3%; height: 6.3vh; margin-top: 2em; background:orange;color:black;
+margin-left: 65em;margin-right:3.8em;font-weight: bolder;  border-radius: 30px;font-family:nunito; }
+
+#home{height: 6vh; margin-top: 2.7em; background: plum; color: black;font-weight: bolder; font-family: Nunito; border-radius: 30px; width:6%; margin-left:5em;}
+
+#details{background:yellowgreen;color: black;padding: 0.3em 0.3em;border-radius: 3px;
+font-family:poppins; font-weight: bolder; font-size: 0.7rem;}
+
+.list-container {display: flex; justify-content: space-between;margin: 0.5em 4em; }
+
+.alllist {background:rgb(21, 18, 18); padding: 2em 2em; border-radius: 8px;
+font-family: poppins; font-weight: bolder;font-size: 0.8rem;margin-bottom: 2.5em;}
+
+#scnd-para {font-size: 1em;; margin-left: 4.5em; background: hotpink; display:inline-block;margin-top: 0px;padding:0.5em 0.5em; font-weight: bold; font-family: poppins;border-radius: 12px;}
+
+a{text-decoration: none;color:yellowgreen; font-family: work sans }
+
+#scnd-nav {background:black;padding:1em 0.8em;display:inline-block; margin-left: 3.7em;
+color: whitesmoke;font-family: work sans;font-size: 0.9rem;}            
+
+#tour {background:orange;color: black;padding: 0 0.1em; line-height: 1rem;}
+
+#music {color:yellowgreen;}
+
+
+
+a{text-decoration:none;
+transition: 0.1s cubic-bezier(.33,.66,.66,1); font-family:nunito ;}
+  
+#ticket-under{color:yellowgreen}
+   
+#socials {background: black;display:inline-block;padding: 0.3em 0.3em;display: flex;
+margin-left: 3.6em;margin-bottom: 0px; filter: brightness(60%);border-radius: 3px;}  
+    
+.alllist:hover {
+-ms-transform: scale(1.13); 
+-webkit-transform: scale(1.13); 
+transform: scale(1.13); 
+background: black;
+border-radius: 4px;} 
+
+@media (max-width: 600px) {
+.main { display: inline-block;height: 10%;margin-top: 0px;}
+.homepage-container {width: 100%; max-width:600;}
+
+.list-container {
+display: flex;flex-direction:column ;
+justify-content: space-between;
+margin: 0.5em 0px; }
+
+.alllist {background: black;
+padding: 2em 2em; 
+margin-left: 4.6em;
+border-radius: 8px;
+font-family: poppins;
+font-weight: bolder;
+font-size: 0.6rem;
+margin-bottom: 2.5em; 
+color:antiquewhite}
+
+#details{background:yellowgreen;
+color: black;
+padding: 0.3em 0.3em;
+border-radius: 3px;
+font-family:poppins;
+font-weight: bolder;
+font-size: 0.6rem;}
+
+img{width:50px}
+
+
+#music-btn {margin-right:92em;
+height: 6vh; 
+margin-right: 1em;
+margin-top: 2.1em;
+background: yellowgreen; 
+color: black;
+font-weight: bolder;
+font-family: nunito;
+border-radius: 30px;
+width:20%;
+font-size:0.6em;
+border: solid yellowgreen 3px;}
+
+#btn-tours {width:22%; height: 5.5vh;
+margin-top: 2.2em;
+background:orange;
+color:black;
+margin-left: 3.3em;
+font-weight: bolder; 
+border: solid orange 3px;
+border-radius: 30px; 
+font-family:nunito; 
+font-size: 0.6rem}
+
+#home{height: 6vh;
+margin-top: 2.2em;
+background: plum; 
+color: black;
+font-weight: bolder;
+font-family: Nunito;
+font-size:0.6rem;
+border-radius: 30px;
+width:22%; 
+margin-left:1em;
+border: solid plum 3px;}
+
+
+#scnd-nav {background:black;
+padding:1em 0.3em;
+display:inline-block;
+margin-left: 0.5em;
+color: whitesmoke;
+font-size: 0.4rem;}            
+
+#socials {background: black;
+display:inline-block;
+padding: 0.3em 0.3em;
+margin-left: 1em;
+margin-bottom: 0px;
+filter: brightness(60%);
+border-radius: 3px;
+display: flex}  
+
+
+#btn {background:black; 
+color: aliceblue; 
+font-size: 0.4rem;}
+}
