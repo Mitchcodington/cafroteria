@@ -1,21 +1,23 @@
+
+
 *{box-sizing: border-box; overflow-x: hidden;}
-body{margin:0; background-image: url("images/fireboy.jpg");background-size: cover; background-color: #404040;
+body{margin:0; background-image: url("images/femi.jpg");background-size: cover; background-color: #404040;
     background-blend-mode: multiply;color: whitesmoke; line-height: 1.6; width: 100%; width: 100vw;object-fit: cover;
 }
 
 
-.main-container {margin: 7em 1em; width: 100%; max-width:960;display: flex;
+.main-container {margin: 5em 3em; width: 100%; max-width:960;display: flex;
 justify-content: space-between;}
 
 
-h2 { margin-left: 2.4em;font-family: poppins;font-size:2rem;font-family: rubik moonrocks;}
+h2 { margin-left: 4.5em;font-family: poppins;font-size:2rem;font-family: rubik moonrocks;}
 
 #name{ color:antiquewhite;margin-top: 1em;}
 
+#year{color:plum}
+
 #scnd-nav {background:black;padding:1em 0.8em;display:inline-block; margin-left: 2.7em; color: whitesmoke;font-family: work sans;font-size: 0.9rem;}            
 #btn {background:black; color: aliceblue; font-size: 0.73rem;}
-
-#year{color:plum}
 
 h1 { margin-left: 2em; background: hotpink; display: inline-block; padding:0.3em 0.3em;
  font-family: rubik moonrocks; border-radius:5px ;margin-top: 0px;color: black;}
@@ -54,7 +56,7 @@ nav { display: flex;justify-content: right;  background: black; width: 100%;padd
     border-radius: 4px;
     background: orangered; 
     color:black; 
-    width: 20%;
+    width: 18%;
     height: 5vh;}
       
     .show-cancel {font-family: poppins;
